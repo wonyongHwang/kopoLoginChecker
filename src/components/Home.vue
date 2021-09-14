@@ -91,7 +91,8 @@
 // import Vue from 'vue'
 // import { QrcodeStream } from "vue-qrcode-reader/src/index.js"
 
-import { RoundSlider } from "vue-round-slider/src/index2.js"
+// import { RoundSlider } from "vue-round-slider/src/index2.js"
+import  RoundSlider from "vue-round-slider/src/round-slider.vue"
 
 import { mapGetters, mapActions } from "vuex";
 import { db } from "src/boot/firebase"
