@@ -10,21 +10,25 @@ npm install
 collection : admin
  - id : string
  - org : string
+
 collection : checkin
  - id : string
  - name : string
  - temperature : string
  - time : string
+
 collection : qrgen
  - date : string
  - id : string
  - status : string
+
 collection : users
  - id : string
  - name : string
 
 ## Firebase Config (src/boot/firebase.js)
 Copy Firebase Config and Paste to firebaseConfig
+
 const firebaseConfig = {
     apiKey: ~,
     authDomain: ~,
