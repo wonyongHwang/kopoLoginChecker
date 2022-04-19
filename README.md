@@ -6,6 +6,35 @@ login application with qr code
 ```bash
 npm install
 ```
+## Firebase Setting
+collection : admin
+ - id : string
+ - org : string
+collection : checkin
+ - id : string
+ - name : string
+ - temperature : string
+ - time : string
+collection : qrgen
+ - date : string
+ - id : string
+ - status : string
+collection : users
+ - id : string
+ - name : string
+
+## Firebase Config (src/boot/firebase.js)
+Copy Firebase Config and Paste to firebaseConfig
+const firebaseConfig = {
+    apiKey: ~,
+    authDomain: ~,
+    projectId: ~,
+    storageBucket: ~,
+    messagingSenderId: ~,
+    appId: ~,
+    measurementId: ~
+  };
+
 ## download
 download compiled css file at <project root folder>/node_modules/vue-round-slider/src/
 ```bash
